@@ -2,9 +2,11 @@
 
 using std::cout;
 using std::endl;
+using std::string;
 
 int main(void) {
-    cout << "Hello world!" << endl;
+    string thing = "I'm hungry";
+    cout << "Hello world! " << thing << "!" << endl;
 
     return 0;
 }
